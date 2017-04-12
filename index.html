@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>countDown Of Birthday</title>
+  <link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+</head>
+<body>
+ <section>
+   <div class='countDown'>
+     <div id='days'></div>
+     <div class="number">
+       <span id=timeHours>00</span>       
+       <span id=timeMinutes>00</span>    
+       <span id=timeSeconds>00</span>
+     </div>
+     
+     <button id=but>START</button>
+     <button id=but1>STOP</button>
+     <div class='birth'> 
+       <div class='text' id='text'>Select Your Birthday,
+         And Click Start!
+    </div>
+       <input type="date" id='valueDate' autocomplete='off'>
+     </div>
+   </div>
+ </section>
+</body>
+<script src="./countDown.js"></script>
+</html>
