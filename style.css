@@ -152,10 +152,10 @@ section{
   height:40px;
   font-size:24px;
   color:white;
-  font-family: monospace;
   box-shadow: 0px 0px 1px 1px black;
   text-shadow: black 0px 0px 15px; 
-  outline:none; 
+  outline:none;
+  font-family: "Open Sans",arial,sans-serif
 }
 
 #but1{
@@ -169,8 +169,8 @@ section{
   height:40px;
   font-size:24px;
   color:white;
-  font-family: monospace;
   box-shadow: 0px 0px 1px 1px black;
   text-shadow: black 0px 0px 15px; 
-  outline:none;  
+  outline:none;
+  font-family: "Open Sans",arial,sans-serif  
 }
